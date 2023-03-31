@@ -1,0 +1,21 @@
+Enunciado
+
+Batalla Campal es un juego de mesa para dos jugadores en el que se introducen 3
+soldados por cada jugador en un tablero de 20 por 20 con el fin de que los soldados sobrevivan
+hasta el final, En cada turno el jugador dispara a un casillero del tablero, eliminando si
+hay un soldado en ella o dejando la casilla inactiva.
+El jugador, luego de disparar, puede optar por mover un soldado, ya sea horizontal, vertical o diagonal.
+El jugador no se puede mover a una casilla inactiva y si se mueve a una casilla con un soldado contrario, se eliminan los 2 soldados.
+El juego termina cuando un jugador se queda sin soldados, ganando el otro jugador.
+
+
+
+Interfaz de usuario
+
+Toda la interfaz de usuario debe estar basada en texto. El estado del tablero tiene que
+mostrarse usando caracteres dispuestos en filas y columnas. Por ejemplo, usando ‘ ’ para
+representar un casillero vacío, ‘X’ para representar un casillero inactivo, ‘1’ para indicar un
+jugador y ‘2’ para el otro. Además, después de cada turno, el
+programa debe exportar el tablero en un archivo de texto con el estado del tablero, uno para el
+jugador 1 y otro para el jugador 2, así no ven sus posiciones.
+
